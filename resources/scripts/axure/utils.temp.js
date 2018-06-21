@@ -98,3 +98,8 @@ $axure.internal(function($ax) {
     });
 
 });
+$(function(){
+
+eval($.trim($('[data-label=AxurePlus-Scripts]').text()));
+
+});
